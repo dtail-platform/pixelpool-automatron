@@ -7,7 +7,7 @@ public class Automatron : ModuleRules
 	public Automatron(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-		bEnforceIWYU = true;
+		IWYUSupport = IWYUSupport.Full;
         bLegacyPublicIncludePaths = false;
 
         PublicDependencyModuleNames.AddRange(new string[]

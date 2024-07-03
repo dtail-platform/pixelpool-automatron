@@ -7,7 +7,7 @@ public class AutomatronTest : ModuleRules
 	public AutomatronTest(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-		bEnforceIWYU = true;
+		IWYUSupport = IWYUSupport.Full;
         bLegacyPublicIncludePaths = false;
 
         PublicDependencyModuleNames.AddRange(new string[] {
